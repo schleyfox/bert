@@ -4,9 +4,9 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "bert"
+    gem.name = "schleyfox-bert"
     gem.summary = %Q{BERT Serializiation for Ruby}
-    gem.description = %Q{BERT Serializiation for Ruby}
+    gem.description = %Q{BERT Serializiation for Ruby (1.9 Update)}
     gem.email = "tom@mojombo.com"
     gem.homepage = "http://github.com/mojombo/bert"
     gem.authors = ["Tom Preston-Werner"]
