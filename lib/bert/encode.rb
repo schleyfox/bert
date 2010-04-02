@@ -11,7 +11,7 @@ module BERT
     def self.encode(data)
       io = StringIO.new
       self.new(io).write_any(data)
-      if RUBY_VERSION =~ /^1.9.\d+$/
+      if '1.9'.respond_to?(:force_encoding)
         io.string.force_encoding("ASCII-8BIT")
       else
         io.string
